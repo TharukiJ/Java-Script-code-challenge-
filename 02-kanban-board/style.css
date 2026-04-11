@@ -78,3 +78,15 @@ h1 {
 .task:active {
     cursor: grabbing;
 }
+
+.column#todo .task {
+    border-left-color: #ef4444;
+}
+
+.column#in-progress .task {
+    border-left-color: #eab308;
+}
+
+.column#done .task {
+    border-left-color: #22c55e;
+}
