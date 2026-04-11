@@ -19,3 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
             jobList.appendChild(li);
         });
+    }
+
+    jobForm.addEventListener('submit', (e) => {
