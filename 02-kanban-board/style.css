@@ -17,3 +17,25 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+header {
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.board {
+    display: flex;
+    flex: 1;
+    padding: 2rem;
+    gap: 2rem;
+    overflow-x: auto;
+    align-items: flex-start;
+    justify-content: center;
+}
