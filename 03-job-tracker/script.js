@@ -34,4 +34,18 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('jobs', JSON.stringify(jobs));
 
         jobForm.reset();
+        renderJobs();
+    });
 
+    window.deleteJob = function (index) {
+        // Remove from array
+        jobs.splice(index, 1);
+
+        // Update local storage
+        localStorage.setItem('jobs', JSON.stringify(jobs));
+        renderJobs();
+    }
+
+    // Initial render
+    renderJobs();
+});
