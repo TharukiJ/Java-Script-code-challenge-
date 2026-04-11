@@ -39,3 +39,14 @@ h1 {
     align-items: flex-start;
     justify-content: center;
 }
+
+.column {
+    background-color: var(--column-bg);
+    border-radius: 12px;
+    width: 300px;
+    min-width: 300px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    min-height: 400px;
+    transition: transform 0.2s;
+}
