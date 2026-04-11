@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode">
+    <nav>
+        <div class="logo">&lt;/&gt; CodeRun</div>
+        <button id="theme-toggle" class="btn">Toggle Light/Dark</button>
+    </nav>
+    <div class="editor-container">
+        <div class="pane">
+            <div class="tab html-tab">HTML</div>
+            <textarea id="html-code" spellcheck="false">&lt;h1&gt;Hello World!&lt;/h1&gt;
+&lt;p&gt;Edit this code to see live changes.&lt;/p&gt;</textarea>
+        </div>
+        <div class="pane">
+            <div class="tab css-tab">CSS</div>
+            <textarea id="css-code" spellcheck="false">body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f0f8ff;
+  padding: 2rem;
+}
+
+h1 {
+  color: #ff3366;
+}</textarea>
+        </div>
+        <div class="pane">
+            <div class="tab js-tab">JS</div>
+            <textarea id="js-code" spellcheck="false">console.log("Welcome to CodeRun!");</textarea>
+        </div>
+    </div>
+    <div class="output-container">
+        <iframe id="output" title="Live Preview"></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
