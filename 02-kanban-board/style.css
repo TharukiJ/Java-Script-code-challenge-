@@ -59,3 +59,13 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+.task {
+    background-color: var(--task-bg);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    cursor: grab;
+    transition: background-color 0.2s, transform 0.1s, box-shadow 0.2s;
+    border-left: 4px solid transparent;
+}
