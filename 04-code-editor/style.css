@@ -1,3 +1,25 @@
+:root {
+    --bg: #ffffff;
+    --text: #333333;
+    --pane-bg: #f8f9fa;
+    --border: #e2e8f0;
+    --nav-bg: #f1f5f9;
+    --accent: #3b82f6;
+
+    --tab-html: #e34f26;
+    --tab-css: #1572b6;
+    --tab-js: #f7df1e;
+}
+
+body.dark-mode {
+    --bg: #0f172a;
+    --text: #f8fafc;
+    --pane-bg: #1e293b;
+    --border: #334155;
+    --nav-bg: #0f172a;
+    --accent: #60a5fa;
+}
+
 body {
     margin: 0;
     font-family: 'Segoe UI', system-ui, sans-serif;
