@@ -30,4 +30,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // Add to array
         jobs.push({ company, role, status });
 
+        // Save to local storage
+        localStorage.setItem('jobs', JSON.stringify(jobs));
+
+        jobForm.reset();
 
