@@ -50,3 +50,12 @@ h1 {
     min-height: 400px;
     transition: transform 0.2s;
 }
+
+.column h2 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
