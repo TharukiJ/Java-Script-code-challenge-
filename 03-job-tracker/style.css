@@ -1,3 +1,12 @@
+:root {
+    --bg-dark: #121212;
+    --surface: #1e1e1e;
+    --primary: #bb86fc;
+    --on-primary: #000000;
+    --text: #ffffff;
+    --text-muted: #aaaaaa;
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
