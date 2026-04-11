@@ -27,3 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const role = document.getElementById('role').value;
         const status = document.getElementById('status').value;
 
+        // Add to array
+        jobs.push({ company, role, status });
+
+
