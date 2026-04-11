@@ -22,3 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     jobForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const company = document.getElementById('company').value;
+        const role = document.getElementById('role').value;
+        const status = document.getElementById('status').value;
+
