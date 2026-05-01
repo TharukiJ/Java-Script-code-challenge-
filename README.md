@@ -8,7 +8,7 @@ This is the repository for the LinkedIn Learning course `JavaScript Code Challen
 
 In this course, trainer and developer Maaike van Putten presents individual JavaScript projects that you can complete in order, out of order, or by skipping to exactly what you want to practice. The difficulty and complexity increases with each chapter, starting with a basic pomodoro timer and ending with a full-stack job tracker and a web-based code editor. Discover how to implement drag-and-drop functionality in a Kanban board. Learn about local storage for data persistence and explore the power of REST APIs and JSON in server-client communication. Harness live code rendering and syntax highlighting to bring your web-based code editor to life, complete with customizable dark mode settings. This course helps you to advance your skills in building dynamic web applications. By showcasing real-world application development, you’ll gain the confidence and expertise required to build interactive, user-friendly web solutions.
 
-_See the readme file in the main branch for updated instructions and information._
+
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
